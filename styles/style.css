@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "helvetica", arial, sans-serif;
+}
+
+header.main{
+  height: 64px;
+  border: 1px solid #eeeeee;
+}
+
+/* LOGO */
+.main .logo {
+  width: 30%;
+  font-size: 30px;
+  color: #C92228;
+  padding: 15px 25px;
+  float: left;
+}
+
+.logo span {
+  color: #555555;
+  font-size: 25px;
+}
+
+/* NAV */
+nav {
+  height: inherit;
+  width: 40%;
+  float: right;
+}
+
+.main nav > ul {
+  width: 100%;
+  height: inherit;
+  list-style: none;
+}
+
+.main nav > ul li {
+  width: 22%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #b5b5b5;
+  line-height: 65px;
+  float: left;
+  height: inherit;
+}
+
+.main > nav > ul li .img {
+    width: 30px;
+    height: 30px;
+    background-color: #a785e6;
+    border-radius: 50%;
+    background-image: url('../images/7.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    float: left;
+    margin-top: 15px;
+}
+
+.main > nav > ul li.icon {
+  width: 12%;
+  font-size: 28px;
+}
+
+/* SECTION */
+.container {
+  width: 80%;
+  margin: auto;
+  clear: both;
+  overflow: auto;
+}
+
+.container section div {
+    width: 33.3%;
+    float: left;
+}
+
+.container section div article {
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.container section div article img {
+    border-radius: 10px;
+}
+
+.container section div article img {
+  display: block;
+  width: 100%;
+}
+
+.container section div article .description {
+  width: 100%;
+}
+
+.container section div article .description > h5 {
+   float: left;
+   line-height: 30px;
+   padding: 5px;
+   color: #555555;
+}
+
+.container section div article .description > i {
+   float: right;
+   line-height: 35px;
+   color: #dddddd;
+}
